@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# Welcome to Duke
+An app to help you record down the tasks you need to accomplish. 
 
-You can use the [editor on GitHub](https://github.com/JethroPhuah/ip/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Commands to be executed
+* list
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+'list' prints out all tasks in that are written.
+* done
 
-### Markdown
+'done [index]' marks the list index as completed.
+* delete
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+'delete [index]' deletes the specified task by index from the list.
+* todo
 
-```markdown
-Syntax highlighted code block
+'todo [description]' adds a todo description into the task list.
+* deadline
 
-# Header 1
-## Header 2
-### Header 3
+'deadline [description] [/by date]' adds a deadline description as well as the date when it is supposed to be completed.
+* event
 
-- Bulleted
-- List
+'event [description] [/at date]' adds a event description as well as the date that the event will happen.
+* save
 
-1. Numbered
-2. List
+'save' saves all the task into a new file called 'duke.txt'.
+* date
 
-**Bold** and _Italic_ and `Code` text
+'date [date]' finds all task that is due/happen on that particular date.
+* find
 
-[Link](url) and ![Image](src)
-```
+'description' finds all task with related description.
+* bye
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+'bye' exits user from program. 
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JethroPhuah/ip/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Thank you!
